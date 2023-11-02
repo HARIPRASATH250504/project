@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice Document</title>
+</head>
+<body>
+    <form action="login.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="username">User name</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <br>
+        <div>
+            <label for="emailid">Email id</label>
+            <input type="email" name="emailid" id="emailid" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="dateofbirth">Date of Birth</label>
+            <input type="date" name="date of birth" id="dateofbirth" maxlength="2050">
+            <br>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="message allert" id="messageallert">
+            <label for="messageallert">Message Alert</label>
+        </div>
+        <br>
+        <div>
+            <select name="state" id="state">
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Kerala">Kerala</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="andhra prathesh">Andhra prathesh</option>
+        </div>
+        <br>
+        <div>
+            <!-- <label for="captsha">Captsha</label> -->
+            <input type="text" id="captsha" placeholder="captsha">
+            <img src="image/cap.jpg" height="50" width="150" align="top">
+        </div>
+        <br>
+        <div>
+            <label for="about">About</label>
+            <textarea name="about" id="about" rows="8" cols="32"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="file">Resume</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <br>
+        <br>
+        <!-- <button type="submit">Login</button> -->
+        <input type="image" src="image/log.png" width="100">
+        <!-- <button type="submit">Signup</button> -->
+        <!-- <input type="image" src="image/res.png" width="50"> -->
+        <button type="reset">reset</button>
+    </form>
+    <br>
+    <hr/>
+    <h3>Welcome everyone</h3>
+    <iframe src="signup.html"></iframe>
+    <h4>Refresh Audio song</h4>
+    <audio src="media/audio.mp3" controls preload="metadata"></audio>
+    <h4>Refresh Video song</h4>
+    <video src="media/video.mp4" controls height="300" width="300" autoplay></video>
+</body>
+</html>
